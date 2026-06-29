@@ -1,0 +1,16 @@
+.price-container {
+  display: flex;
+  gap: 10px; /* Puts a nice space between old and new price */
+  justify-content: center; /* Centers the prices inside the card gold bar */
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through; /* <--- THIS REPRESENTS THE CUT-OUT LINE */
+  color: #000000; /* Optional: Turns it gray so it looks discounted */
+  font-weight: normal; /* Optional: Makes it thinner than the new price */
+}
+
+.new-price {
+  color: #000000; /* Keeps your new price dark and bold */
+}

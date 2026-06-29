@@ -1,11 +1,10 @@
-import "./App.css";
-import Title from "./Title.jsx";
-import Description from "./Description.jsx";
-import ProductTab from "./ProductTab.jsx";
-import MsgBoxTab from "./MsgBoxTab.jsx";
-import MsgBox from "./MsgBox.jsx";
+import Title from "./React1&2/Title.jsx";
+import Description from "./React1&2/Description.jsx";
+import ProductTab from "./React1&2/ProductTab.jsx";
+import MsgBoxTab from "./React1&2/Activity1 for names and textcolor/MsgBoxTab.jsx";
+import MsgBox from "./React1&2/Activity1 for names and textcolor/MsgBox.jsx";
 
-import Activitytab from "./Activity2Tab.jsx";
+import Activitytab from "./React1&2/Activity2 for amazon cards/Activity2Tab.jsx";
 function App() {
   return (
     <>

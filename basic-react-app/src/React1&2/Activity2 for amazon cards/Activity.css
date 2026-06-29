@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 24px;
+  background-color: rgb(141, 210, 241);
+  height: 400px;
+  width: 320px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+  /* 1. REMOVE padding: 50px; from here so elements can touch the edges */
+
+  /* 2. ADD Flexbox to align content and push the price div to the exact bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  /* 3. Prevents the gold background from clipping out of the card's rounded corners */
+  overflow: hidden;
+}
+
+.card img {
+  height: 150px;
+  width: 250px;
+  margin-top: 20px;
+  object-fit: contain; /* Keeps your images from stretching or looking squished */
+}
+
+.card div {
+  background-color: rgb(218, 218, 64);
+
+  /* 4. Force the price bar to take up the full card width */
+  width: 100%;
+  padding: 12px 0; /* Adds nice breathing room inside the gold bar */
+  text-align: center; /* Centers your prices perfectly */
+}

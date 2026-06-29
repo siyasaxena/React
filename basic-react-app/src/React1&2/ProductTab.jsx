@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import Product from "./Product.jsx";
 // function ProductTab() {
 //   return (

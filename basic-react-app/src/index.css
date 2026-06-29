@@ -109,3 +109,11 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 } */
+
+#root {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-left: 60px;
+}
