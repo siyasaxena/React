@@ -1,0 +1,16 @@
+.Product {
+  border: 1px solid black;
+  border-radius: 24px;
+  margin-bottom: 20px;
+  padding-left: 350px;
+  background-color: pink;
+}
+.activity {
+  border: 1px solid black;
+  border-radius: 24px;
+  padding-left: 350px;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
