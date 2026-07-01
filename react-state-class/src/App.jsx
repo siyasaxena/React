@@ -1,10 +1,11 @@
 import "./App.css";
 import Counter from "./Counter.jsx";
+import Like from "./LikeButton.jsx";
 
 function App() {
   return (
     <>
-      <h1>States in React</h1>
+      <p>States in React</p>
       <Counter />
     </>
   );
