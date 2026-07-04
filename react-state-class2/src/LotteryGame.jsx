@@ -9,7 +9,7 @@ function LotteryGame() {
 
     let sum = 0;
     for (let i = 0; i < newTicket.length; i++) {
-      sum += parseInt(newTicket[i], 10);
+      sum += parseInt(newTicket[i], 10); // 10 is the radix (or base) argument for the parseInt() function.
     }
 
     if (sum == 15) {
