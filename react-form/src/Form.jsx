@@ -7,7 +7,6 @@ export default function Form() {
     setFullName(event.target.value);
   };
   let handleUsername = (event) => {
-    // console.log(event.target.value);
     setUsername(event.target.value);
   };
   return (
@@ -32,15 +31,6 @@ export default function Form() {
         value={username}
         id="username"
         onChange={handleUsername}
-      />
-      <button>Submit</button>
-      <label htmlFor="fullName">Full Name: </label>
-      <input
-        placeholder="enter your full name"
-        type="text"
-        value={fullName}
-        id="fullName"
-        onChange={handleNameChange}
       />
       <button>Submit</button>
     </form>
